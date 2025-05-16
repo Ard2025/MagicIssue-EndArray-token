@@ -1,0 +1,13 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+Website/app.db
+.idea/
+/.vs
+/Website/app.db-shm
+/Website/app.db-wal
+/Website/Properties/launchSettings.json
+/Website/.env
+/Website/Migrations

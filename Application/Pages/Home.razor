@@ -1,0 +1,25 @@
+﻿@page "/"
+
+@using Application.Models
+
+<PageTitle>Home</PageTitle>
+
+<h2>Instellingen</h2>
+
+<input type="submit" value="Delete local data" @onclick="ClearApplication"/>
+
+<br>
+<br>
+
+<input type="submit" value="Test add player" @onclick="async () => await TestPlayer()" />
+
+<br>
+<br>
+
+<input type="submit" value="Test add event" @onclick="async () => await TestEvent()" />
+
+<br>
+<br>
+
+<input type="submit" value="Test add game" @onclick="async () => await TestGame()" />
+
